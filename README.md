@@ -7,9 +7,10 @@ DataRefuge marked GSA Staff Directory as vulnerable.  Contact info is only retur
 
 ## Requirements
 
-- Python 3
+- [Python 3](https://www.python.org/download/releases/3.0/)
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
 - [Selenium](https://pypi.python.org/pypi/selenium)
+- [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) or [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 
 ## Details
 
@@ -17,6 +18,7 @@ DataRefuge marked GSA Staff Directory as vulnerable.  Contact info is only retur
 
 - scrape.py: uses Selenium to procedurally query
 - parse.py: uses BeautifulSoup to extract listings from returned html
+- sample.html: sample result page from a directory search
 
 ### How It Works
 
