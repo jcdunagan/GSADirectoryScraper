@@ -2,6 +2,7 @@
 """scrape.py: Scrapes contacts from GSA Search Directory. Writes JSON to file."""
 __author__= "John Dunagan"
 __email__= "jcdunagan@wustl.edu"
+# https://github.com/jcdunagan/GSADirectoryScraper
 
 import json
 import sys

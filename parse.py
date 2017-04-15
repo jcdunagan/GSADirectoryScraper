@@ -2,6 +2,7 @@
 """parse.py: Extracts contacts from HTML of GSA Directory search results"""
 __author__= "John Dunagan"
 __email__= "jcdunagan@wustl.edu"
+# https://github.com/jcdunagan/GSADirectoryScraper
 
 from bs4 import BeautifulSoup
 import re
